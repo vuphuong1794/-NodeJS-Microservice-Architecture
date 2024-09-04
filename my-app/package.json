@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=dev nodemon src/index.js",
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +15,11 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "fs": "^0.0.1-security",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.2",
+    "ps": "^1.0.0",
+    "shopping_app_monolithic": "file:",
     "uuid": "^8.3.2",
     "winston": "^3.3.3"
   },
